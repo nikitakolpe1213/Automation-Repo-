@@ -7,7 +7,7 @@ public class SampleMaven {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.flipkart.com/");
+        driver.get("https://www.amazon.in/");
         driver.close();
     }
 
